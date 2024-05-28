@@ -36,3 +36,150 @@
     transform: rotate(360deg);
   }
 }
+
+
+.header {
+  color: white;
+  font-style: italic;
+  justify-content: center;
+}
+
+
+.container{
+  flex-direction: column;
+}
+
+
+
+
+.travelimg{
+  height: 70px;
+  width: 100px;
+}
+
+.travelimg1{
+  text-align: center;
+  /* background-color: lightgray; */
+}
+
+
+
+.acc{
+  align-items: center;
+      font-family: -webkit-body;
+}
+
+
+.navbar{
+  height: 100px;
+  /* position: sticky; */
+}
+
+.big{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.container{
+  display:flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  /* background: limegreen; */
+  /* color: #fff; */
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  font-size: 30px;
+  color: blue;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  color: blue;
+}
+.link{
+  display: flex;
+  color: black;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:black;
+  color: white;
+  transition: all 0.5s;
+}
+.active{
+  background: black;
+  color: white;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+
+
+.tabletop{
+  color: white;
+  background-color: black;
+}
+
+.tablebottom{
+  color: white;
+  background-color: grey;
+}
+
+.travellerlist{
+  margin: 25px;
+  text-align: center;
+}
+
+.form-template {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form-template label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-template input,
+.form-template textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-template button {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-template button:hover {
+  background-color: #45a049;
+}
